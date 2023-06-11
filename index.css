@@ -5,3 +5,331 @@
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Poppins', sans-serif; */
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 1.125rem;
+    color: hsl(208, 11%, 55%);
+}
+
+.head-section {
+    height: 80vh;
+    padding: 1.25rem 6.25rem;
+    background: url('./images/bg-hero-desktop.svg'), hsl(193, 100%, 96%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 10vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 1.25rem;
+    margin-bottom: 3.125rem;
+    
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    padding: 0.625rem;
+    width: 9.375rem;
+    border-radius: 1.875rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0.063rem 0.063rem 0.625rem rgba(128, 128, 128, 0.237);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-desctiption {
+    width: 42%;
+}
+
+.header-img {
+    width: 55%;
+}
+
+.header-desctiption {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.header-title {
+    font-size: 2.5rem;
+}
+
+.header-text {
+    color: hsl(192, 100%, 9%);
+}
+
+.start-btn {
+    font-family: 'Poppins', sans-serif;
+    width: 18.75rem;
+    height: 3.75rem;
+    border-radius: 1.875rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: hsl(322, 100%, 66%);
+}
+
+.start-btn:hover {
+    cursor: pointer;
+    background-color: hsla(322, 100%, 66%, 0.7);
+}
+
+.main-section {
+    font-family: 'Poppins', sans-serif;
+    padding: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.main-content {
+    
+    height: fit-content;
+    border-radius: 0.625rem;
+    box-shadow: 0.063rem 0.063rem 0.625rem rgba(128, 128, 128, 0.237);
+    padding: 1.875rem 1.875rem 1.875rem 6.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 8.125rem;
+    align-items: center;
+}
+
+.main-img {
+    width: 80%;
+    height: auto;
+}
+
+.main-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+.grow-description, .users-description  {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grow-img, .users-img {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+}
+
+.ready-section {
+    width: 50vw;
+    box-shadow: 0.063rem 0.063rem 0.625rem rgba(128, 128, 128, 0.237);
+    background-color: white;
+    border-radius: 0.625rem;
+    padding: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.875rem;
+    transform: translateY(50%);
+}
+
+.footer-section {
+    width: 100%;
+    background-color: hsl(192, 100%, 9%);
+    padding: 12.5rem 9.375rem 1.25rem 9.375rem;
+    color: white;
+}
+
+.footer-logo {
+    filter: brightness(0) invert(1);
+    margin-bottom: 1.25rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 0.8fr;
+    gap: 1.25rem;
+    height: 30vh;
+}
+
+
+.contacts-item {
+    display: flex;
+    align-items: first baseline;
+    gap: 0.625rem;
+    margin-bottom: 1.25rem;
+    color: white;
+}
+
+.contacts-item-text {
+    color: white;
+}
+
+.contacts-item > img {
+    height: 100%;
+}
+
+.footer-links {
+    margin-left: 3.125rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+    gap: 1.25rem;
+}
+
+.footer-links > a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.socials {
+    margin-left: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials-icons {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.socials-text {
+    font-size: 0.75rem;
+}
+
+.social-icon-container {
+    padding: 0.625rem;
+    border-radius: 50%;
+    border: 0.063rem solid white;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution, .attribution > a {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+
+.social-icon-container:hover {
+    cursor: pointer;
+    border-color: hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+}
+
+
+@media screen and (max-width: 60rem) {
+    p {
+        font-size: 1rem;
+    }
+    .head-section {
+        padding: 0 1.875rem 1.875rem 1.875rem;
+        background: url('./images/bg-hero-mobile.svg'), hsl(193, 100%, 96%);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: fit-content;
+    }
+
+    .header-desctiption {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .header-title {
+        font-size: 1.8rem;
+    }
+    .btn {
+        width: 6.25rem;
+    }
+    .logo {
+        width: 50%;
+    }
+    .header-content {
+        flex-direction: column;
+        gap: 3.125rem;
+    }
+
+    .start-btn {
+        height: 2.5rem;
+        width: 15.625rem;
+    }
+
+    .header-img {
+        width: 100%
+    }
+
+    .main-section {
+        padding: 1.25rem;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.875rem;
+        padding: 1.25rem;
+    }
+
+    .ready-section {
+        width: 90%;
+        padding: 1.25rem;
+    }
+
+    .ready-title {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .footer-section {
+        padding: 6.25rem 1.25rem 1.25rem 1.25rem;
+
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+        margin: 0;
+    }
+
+    .socials {
+        margin: 0;
+        align-items: center;
+        gap: 1.25rem;
+    }
+}
