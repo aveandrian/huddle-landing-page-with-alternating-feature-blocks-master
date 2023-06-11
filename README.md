@@ -19,4 +19,5 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/aveandrian/huddle-landing-page-with-alternating-feature-blocks-master/assets/13519212/2d883f18-da8b-4a7e-bb1b-d358a8e6d53c)
+
