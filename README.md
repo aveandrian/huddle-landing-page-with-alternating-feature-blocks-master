@@ -19,5 +19,5 @@ Users should be able to:
 
 ### Screenshot
 
-![image](https://github.com/aveandrian/huddle-landing-page-with-alternating-feature-blocks-master/assets/13519212/2d883f18-da8b-4a7e-bb1b-d358a8e6d53c)
+![image](https://github.com/aveandrian/huddle-landing-page-with-alternating-feature-blocks-master/assets/13519212/bc695209-b1c9-4fa1-bd4b-55c5c0f1ce24)
 
